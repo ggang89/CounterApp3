@@ -1,22 +1,12 @@
-import { useState } from "react";
 import React from "react";
-
+import Counter from "./components/Counter";
+import "./App.css";
 function App() {
-  const [count, setCount] = useState(0);
-  const handlePlus = () => {
-    setCount(count+1);
-  };
-  const HandleMinus = () => {
-    setCount(count-1);
-  };
+ 
   return (
-    <div>
-      <h1>Counter App 3</h1>
-      <div>
-        <button onClick={handlePlus}>+1</button>
-        <span>{count}</span>
-        <button onClick={HandleMinus}>-1</button>
-      </div>
+    <div className="outbox">
+      <h1 className="title">Counter App 3</h1>
+      <Counter />      
     </div>
   );
 }

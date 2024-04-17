@@ -1,0 +1,21 @@
+.counter {
+  border-top: 1px dotted green;
+  width: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+  background: #e0d3d3;
+  align-items: center;
+  display: flex;
+   /* 기본이 strech로 되어있음. align-items를 center로 해서 중앙정렬됨 */
+  justify-content: center;
+}
+.btn {
+  padding: 5px 20px;
+  margin: 0 30px;
+  background-color: tomato;
+  color: #fff;
+  border: none;
+}
+.text {
+  font-size: 30px;
+}
